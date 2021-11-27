@@ -1,0 +1,72 @@
+.react-body {
+  background: rgb(233,238,246);
+background: linear-gradient(180deg, rgba(233,238,246,1) 0%, rgba(8,94,214,1) 95%);
+}
+.header{
+  border-bottom: 1px dotted rgba(0, 17, 255, 0.212);
+  height: 200px;
+  width: 100%;
+  background-color : #E9EEF6;
+  padding-top: 50px;
+}
+
+.card-container{
+ 
+  height: 300px;
+  width: 300px;
+  box-shadow: 0px 3px 50px #a5a5a5da;
+}
+
+.card-wrapper{
+  background-color:#e9eef6a9;
+  width: 270px; 
+  height: 200px; 
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 3px 50px #2f2f2f86;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-top{
+  width: 100%;
+  height: 2%;
+}
+
+.task-holder{
+  width: 100%;
+  height: 98%;
+  padding: 10px 10px;
+  display : flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.card-header{
+  border-radius: 5px !important;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-width: 100%;
+  height: 30px;
+  padding: 1px 1px !important;
+  text-align: center;
+}
+
+.task-container{
+  height: 600px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f6f7f877;
+  padding : 40px 100px;
+}
+.fa-edit {
+  margin: 10px;
+}
+.close {
+  background-color: rgba(17, 93, 235, 0);
+  border: none;
+  font-size: 20px;
+border-radius: 55px;
+
+}
